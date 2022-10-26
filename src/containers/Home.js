@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div>
         </div>
-        <div className="bg-success text-center" > 
+        <div className="bg-warning text-center" > 
             <h1> ENTRADAS </h1>
             <TableEntradas></TableEntradas>
         </div>

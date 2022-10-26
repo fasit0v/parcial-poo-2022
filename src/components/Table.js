@@ -13,7 +13,8 @@ export default function Table() {
     const col =[{
         name:"Codigo Producto",
         selector: i => i.id,
-        sortable:true
+        sortable:true,
+        style: {background:"grey"}
     },{
         name:"Descripcion",
         selector:i => i.descripcion,
@@ -21,7 +22,8 @@ export default function Table() {
     },{
         name: "Existencias Iniciales",
         selector:i =>i.existenciasIniciales,
-        sortable:true
+        sortable:true,
+        style: {background:"grey"}
     },{
         name: "Entradas",
         selector:i =>i.entradas,
@@ -29,7 +31,8 @@ export default function Table() {
     },{
         name:"Salidas",
         selector:i=>i.salidas,
-        sortable:true
+        sortable:true,
+        style: {background:"grey"}
     },{
         name:"Stock",
         selector:i=>i.stock,

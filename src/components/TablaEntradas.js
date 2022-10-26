@@ -2,7 +2,6 @@ import { useContext, useEffect } from "react"
 import DataTable from "react-data-table-component"
 import context from "../context/Context"
 import BtnDelete from "./BtnDelete"
-import BtnUpdate from "./BtnUpdate"
 
 export default function TableEntradas() {
 
@@ -10,9 +9,10 @@ export default function TableEntradas() {
 
 
     const col =[{
-        name:"Numero Factura",
+        name:"N° Factura",
         selector: i => i.id,
-        sortable:true
+        sortable:true,
+        style: {background:"yellow"}
     },{
         name:"Fecha",
         selector:i => i.fecha,
@@ -20,7 +20,8 @@ export default function TableEntradas() {
     },{
         name: "Codigo Producto",
         selector:i =>i.codigoProducto,
-        sortable:true
+        sortable:true,
+        style: {background:"yellow"}
     },{
         name: "Descripcion",
         selector:i =>i.descripcion,
@@ -28,7 +29,8 @@ export default function TableEntradas() {
     },{
         name:"Cantidad",
         selector:i=>i.cantidad,
-        sortable:true
+        sortable:true,
+        style: {background:"yellow"}
     },{
         name:" Delete ",
         selector:i=> <BtnDelete key={i.id} id={i.id} coleccion={"entradas"}></BtnDelete>

@@ -16,6 +16,6 @@ export default function BtnDelete(props) {
     }
 
     return (
-        <button onClick={handleDelete} className="btn btn-secondary">❌</button>
+        <button onClick={handleDelete} className="btn btn-dark">⛔</button>
     )
 }

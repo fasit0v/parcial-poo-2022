@@ -38,7 +38,7 @@ export default function ModalAddExistencia() {
     
     return(
         <>
-            <button type="button" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalAgregarEntradas">
+            <button type="button" className="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalAgregarEntradas">
                 Add Entradas
             </button>
 

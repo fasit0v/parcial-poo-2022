@@ -28,8 +28,8 @@ export default function BtnUpdate(props) {
 
     return (
         <>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#modalActualizarExistencia"+props.id}>
-                🖊️
+            <button type="button" className="btn btn-dark" data-bs-toggle="modal" data-bs-target={"#modalActualizarExistencia"+props.id}>
+                ⚠️
             </button>
 
             <div className="modal fade" id={"modalActualizarExistencia"+props.id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
