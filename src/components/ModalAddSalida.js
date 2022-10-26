@@ -38,7 +38,7 @@ export default function ModalAddSalida() {
     
     return(
         <>
-            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAgregarSalida">
+            <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalAgregarSalida">
                 Add Salidas
             </button>
 
@@ -46,7 +46,7 @@ export default function ModalAddSalida() {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel">Modal Salida</h1>
+                            <h1 className="modal-title fs-5" id="exampleModalLabel">Agregar Salidas</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
